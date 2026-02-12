@@ -215,3 +215,7 @@ endif
 if HAS_BLOCKERUPTER
 cgminer_SOURCES += driver-blockerupter.c driver-blockerupter.h
 endif
+
+if HAS_TSMINER
+cgminer_SOURCES += driver-tsminer.c
+endif
